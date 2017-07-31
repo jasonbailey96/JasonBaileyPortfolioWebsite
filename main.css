@@ -1,0 +1,304 @@
+body {
+    
+margin: 0;
+padding: 0;
+width: 100%;
+    
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    
+color: #000;
+font-family: "Wellfleet";
+font-size: 55px;
+text-align: center;
+margin-top: 10px;
+    
+}
+
+h1 {
+    
+font-family: "Wellfleet";
+font-weight: normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+    
+}
+
+h2 {
+    
+font-family: serif;
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+    
+}
+
+h3 {
+    
+font-family: serif;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 5px 0;    
+padding: 0;
+z-index: 1;
+position: relative;
+    
+}
+
+.center {
+    
+margin: 0 auto;
+    
+}
+
+.content {
+    
+margin: 0 auto;
+width: 960px;
+    
+}
+
+/*
+.clear {
+    
+clear: both;
+    
+}
+*/
+
+#header {
+    
+width: 100%;
+background-color: black;
+height: 80px;    
+position: fixed;
+margin: 0 0 0 0;
+    
+}
+
+#nav {
+    
+width: 410px;
+float: right;
+margin-top: 20px;
+    
+}
+
+#logo a {
+    
+color: #fff; 
+text-decoration: none; 
+float: left; 
+font-size: 30px; 
+margin-top: 20px; 
+color: #fff; 
+font-family:"Wellfleet"; 
+font-weight: bold;
+       
+}
+
+#nav ul {
+    
+list-style: none;
+display: block;
+margin: 0 auto;
+    
+}
+
+#nav li {
+    
+margin-top: 9px;
+float: left;
+padding-left: 21px
+    
+}
+
+#nav li a { 
+    
+color: #fff; 
+opacity:0.6; 
+font-size: 16px; 
+text-decoration: none; 
+font-family: 'Wellfleet';
+    
+}
+
+#nav li a.active { 
+    
+color: #fff; 
+opacity:1; 
+border-bottom: 2px solid #fff;
+
+}
+
+#nav li a:hover { 
+    
+color: #fff; 
+opacity:1; 
+
+}
+
+.quotes {
+    
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 30px;
+text-align: left;
+margin: 50px auto;
+    
+}
+
+.quotes_container {
+    
+width: 800px;
+margin: 0 auto;
+    
+}
+
+#slide1, #slide2 { 
+
+width: 100%; 
+
+}
+
+#slide1 {
+    
+background:url('../img/concert.jpg') 50% 0 no-repeat fixed;
+color: #fff;
+height: 600px;
+margin: 0;
+padding: 200px 0 260px 0;
+background-size: cover;
+    
+}
+
+.colorcover {
+    
+color: red;
+z-index: 1;
+opacity: 50%;
+width: 100%;
+height: 600px;
+    
+}
+
+#slide2 {
+    
+background-color: #fff;
+color: #333333;
+height: 300px;
+margin: 0 auto;
+overflow: hidden;
+padding: 0 0;
+    
+}
+
+#slide3 {
+    
+background: url(../img/code.jpg) 50% 0 no-repeat fixed;
+color: #fff;
+height: 600px;
+padding: 170px 0 0 0;
+background-size: cover;
+    
+}
+
+#slide4 {
+    
+background-color: #fff;
+color: #333333;
+height: 100%;
+padding-top: 40px;
+margin: 0 auto;
+overflow: hidden;
+    
+}
+
+#slide5 {
+    
+background: url(../img/office.jpg) 50% 0 no-repeat fixed;
+height: 200px;
+margin: 0 auto;
+padding: 250px 0;
+color: #fff;
+background-size: cover;
+    
+}
+
+.container {
+    
+   position: relative;
+   width: 33.3333333334%;
+   display: inline-block;
+   float: left;
+   
+}
+
+
+
+.image {
+    
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    
+}
+
+.middle {
+    
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
