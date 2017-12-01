@@ -1,2 +1,1 @@
-# JasonBaileyPortfolioWebsite
-Source Code for a portfolio website that I am currently developing and working on
+files from second year web design module
